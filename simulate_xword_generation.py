@@ -1,12 +1,22 @@
+"""Simulate all keyboard commands required to generate crosswords using
+クロスワード　ギバー. This allows us to create roughly 4 crossword puzzles per
+minute automatically.
 
-from pynput.keyboard import Key, Controller
+The destination folder must be manually set in クロスワード　ギバー before
+running this module.
+"""
+
+
 import time
+
+from pynput.keyboard import Controller, Key
+
 
 keyboard = Controller()
 
 time.sleep(5)
 
-for i in range(2, 101):
+for i in range(1, 101):  # Filename will be i.xwj
     keyboard.press(Key.ctrl_l)
     time.sleep(0.1)
     keyboard.press('g')

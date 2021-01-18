@@ -1,4 +1,5 @@
-"""Count # unique words in a set of puzzles"""
+"""Count # unique words for each level of puzzles. Also counts number of words
+seen X # times. Finally checks for duplicate puzzles."""
 
 import os
 import json
