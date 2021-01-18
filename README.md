@@ -1,5 +1,5 @@
 # KameKurosuPuzzleGeneration
-Automatically build Japanese crossword puzzles for KameKurosu app. Requires クロスワード　ギバー software.
+Automatically build Japanese crossword puzzles for KameKurosu app. Requires クロスワード　ギバー and ZKanji software (both free).
 
 ## Steps
 1. Use ZKanji software to export a word list (I created a list using all JLPT kanji with JLPT levels annotated for each word)
