@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Users\\jonst\\Anaconda3\\envs\\crossword\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.enabled": true
+}
