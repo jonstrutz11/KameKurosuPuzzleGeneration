@@ -1,6 +1,9 @@
 # KameKurosuPuzzleGeneration
 Automatically build Japanese crossword puzzles for KameKurosu app. Requires クロスワード　ギバー and ZKanji software (both free).
 
+## Note
+Not intended for outside use, but you can certain try using this code to generate your own Japanese crosswords!
+
 ## Steps
 1. Use ZKanji software to export a word list (I created a list using all JLPT kanji with JLPT levels annotated in the "group" field for each word)
 2. Use preprocess_zkanji_wordlist.py to parse this ZKanji word list into lists which can be fed to クロスワード　ギバー software. This file also pickles the final word list which can be input into build_jlpt_graph.py to look at JLPT level vs frequency.
